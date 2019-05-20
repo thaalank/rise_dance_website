@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Get in Touch</title>
+  <link rel="stylesheet" type="text/css" href="styles/all.css" media="all"/>
+
+  <script src="scripts/jquery-3.3.1.min.js" type="text/javascript"></script>
+  <script src="scripts/validation.js" type="text/javascript"></script>
+  <script src="scripts/dropdown.js" type="text/javascript"></script>
+</head>
+<body>
+  <!--logo + nav bar-->
+  <header>
+    <a href="index.html"><img src = "content/riselogo.png" alt="Logo" class="logo"/></a>
+    <!-- Logo provided by Rise Dance Group -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="eboard.html">Family</a></li>
+        <li><a href="performances.html">Performances</a></li>
+        <li><a href="photos.html">Photos</a></li>
+        <li><a href="contact.html">Get in Touch</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Get in Touch</h1>
+
+    <p>Would you like to know more about upcoming performances? Are you interested in finding out more information about auditions? If this sounds like you, please leave us your name and email address and we will be sure to stay in touch!</p>
+
+
+<form id="contactForm" method="post" action="https://www.cs.cornell.edu/courses/cs1300/2018fa/submit.php" novalidate>
+<div class="container">
+  <div class="form">
+    <label for="contactForm-name">What is your name?</label>
+    <input id="contactForm-name" type="text" name="name" placeholder="Your Name" required/>
+    <p id="contactForm-namefeedback" class="feedback hidden">A name is required.</p>
+  </div>
+  <div class="form">
+    <label for="contactForm-email">What is your email?</label>
+    <input id="contactForm-email" type="email" name="email" placeholder="Your Email" required/>
+    <p id="contactForm-emailfeedback" class="feedback hidden">A valid email is required.</p>
+  </div>
+  <div class="form">
+    <label for="contactForm-comments">Please leave any questions or comments you may have.</label>
+    <textarea id="contactForm-comments" name="comments" placeholder="Questions or Comments"></textarea>
+  </div>
+</div>
+  <button type="submit" class="submitbutton">Submit</button>
+</form>
+
+<div class="contact-pics">
+<div class="contact-left">
+  <figure>
+    <img src = "content/contact3.jpg" alt="Girl jumping in front of clocktower">
+  </figure>
+</div>
+<div class="contant-center">
+  <img src="content/contact1.jpg" alt="Piggy back ride">
+</div>
+<div class="contact-right">
+  <figure>
+    <img src="content/contact2.jpg" alt="Girl extending her leg up in front of elevator">
+  </figure>
+</div>
+</div>
+</main>
+<p class="citation"> All photos taken by Aubrey Alabanza Akers.</p>
+<!-- All photos taken by Aubrey Alabanza Akers. -->
+<!--social media-->
+<footer>
+  <ul>
+    <li><a href="https://www.facebook.com/risedancegroup/"><img src="content/facebookIcon.png" alt="Facebook Icon"/></a></li>
+    <li><a href="https://twitter.com/risedancegroup?lang=en"><img src="content/twitterIcon.png" alt="Twitter Icon"/></a></li>
+    <li><a href="https://www.instagram.com/rise_dance_group/"><img src="content/instagramIcon.png" alt="Instagram Icon"/></a></li>
+  </ul>
+  <a class="link" href="https://www.iconsdb.com/icons/preview/white/facebook-2-xxl.png">Source of Facebook Icon</a>
+  <a class="link" href="https://www.iconsdb.com/icons/preview/white/twitter-xxl.png">Source of Twitter Icon</a>
+  <a class="link" href="https://www.iconsdb.com/icons/preview/white/instagram-xxl.png">Source of Instagram Icon</a>
+  <!-- Sources for social media icons: https://www.iconsdb.com/icons/preview/white/facebook-2-xxl.png, https://www.iconsdb.com/icons/preview/white/twitter-xxl.png, https://www.iconsdb.com/icons/preview/white/instagram-xxl.png -->
+</footer>
+</body>
+</html>

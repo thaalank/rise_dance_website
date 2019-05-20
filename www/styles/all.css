@@ -1,0 +1,409 @@
+/* general */
+a {
+  text-decoration: none;
+}
+body{
+  font-family: "Heiti TC", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+/* header */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+nav li {
+  display: inline;
+}
+nav li a:hover {
+  color: purple;
+}
+nav a {
+  text-decoration: none;
+  padding: 10px;
+  margin-left: 12px;
+  margin-right: 12px;
+  text-transform: uppercase;
+  font-size: 12pt;
+  color: #F3B1A4;
+}
+
+.logo {
+  margin-left: 50px;
+}
+
+.logo:hover {
+  opacity: .5;
+}
+.citation{
+  font-size: 12px;
+  margin-top: 10px;
+}
+.link{
+  text-decoration: underline;
+  font-size: 12px;
+  margin-top: 10px;
+  color: #5d5b62;
+  text-align: left;
+}
+
+/* main */
+main {
+  text-align: center;
+}
+
+main h1, h2{
+  color: #F3B1A4;
+}
+
+
+main h1 {
+  font-size: 30pt;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 20pt;
+  text-transform: uppercase;
+}
+
+
+main p {
+  color: #5d5b62;
+  font-size: 16pt;
+  text-align: left;
+  margin: 25px 200px 25px 200px;
+  line-height: 1.7em;
+}
+
+p{
+  color: #5d5b62;
+  font-size: 16pt;
+  text-align: left;
+}
+
+.performanceSection {
+  margin: 25px 100px 25px 100px;
+  background-color: #F9F5F5;
+  text-align: center;
+}
+
+.performanceButton {
+  padding: 20px;
+  width: 320px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 25px;
+}
+
+h2.performanceButton:hover {
+  box-shadow: 10px 10px 20px black;
+}
+
+h2.performanceButton {
+  background-color: purple;
+}
+
+
+/* performances */
+.performanceImage img{
+  width: 60%;
+}
+
+.topTable table {
+  border-collapse: collapse;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottomTable table {
+  border-collapse: collapse;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1%;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th {
+  background-color: purple;
+  color: white;
+}
+
+#performanceCitation {
+  margin-left: 65%;
+}
+
+/* photos */
+.galleryImage {
+  width: 33%;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.galleryImage:hover {
+  opacity: 0.7;
+}
+
+#galleryCitation{
+  margin: 0 auto;
+}
+
+/* The following code was adapted from https://www.w3schools.com/howto/howto_css_modal_images.asp /*
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    margin-bottom: 10%;
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* slideshow */
+.slideshowNextButton, .slideshowPreviousButton {
+  margin: auto;
+  cursor: pointer;
+  color: white;
+  background-color: purple;
+  width: 60px;
+  height: 40px;
+  border-radius: 25px;
+}
+
+.slideshowNextButton:hover {
+  box-shadow: 4px 4px 8px gray;
+}
+
+.slideshowPreviousButton:hover {
+  box-shadow: 4px 4px 10px gray;
+}
+
+.slideshow {
+  text-align: center;
+}
+
+.slideshowButtonHolder {
+  display: flex;
+  color: #5d5b62;
+  font-size: 25pt;
+}
+
+/* footer */
+footer {
+  text-align: center;
+  background-color: purple;
+  height: 6em;
+  margin-bottom: 0px;
+}
+
+footer ul {
+  margin: auto;
+  padding: 2em;
+}
+
+footer li {
+  display: inline;
+  padding: 25px;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  opacity: .5;
+}
+.social{
+  flex-direction: row;
+  display: flex;
+}
+.icon{
+  flex-grow: 1;
+}
+
+/* family */
+#familyp{
+  color: #5d5b62;
+  font-size: 16pt;
+  text-align: left;
+  margin: auto;
+  line-height: 1.7em;
+}
+.name{
+  font-size: 22px;
+  color: purple;
+  text-transform: uppercase;
+}
+.title{
+  font-size: 20px;
+  color: #5d5b62;
+}
+.otherinfo{
+  font-size: 18px;
+  color: #5d5b62;
+}
+.eboard1{
+  display: flex;
+  flex-direction: row;
+}
+.pic{
+  flex-grow: 1;
+}
+.top{
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: #F3B1A4;
+  color: purple;
+  border-radius: 45px;
+  width: 15%;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 8px purple;
+}
+
+/* contact */
+.hidden{
+  display: none !important;
+}
+.submitbutton{
+  font-family: "Heiti TC", sans-serif;
+  font-size: 150%;
+  margin: 30px;
+  background-color: #F3B1A4;
+  border-radius: 45px;
+  width: 15%;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 8px purple;
+  color: purple;
+  cursor: pointer;
+}
+.form{
+  margin: 10px;
+  color: purple;
+  font-size: 20px;
+}
+#contactForm-namefeedback, #contactForm-emailfeedback{
+  background-color: purple;
+  color: #F3B1A4;
+  border: 3px solid #F3B1A4;
+  text-align: center;
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.contact-pics{
+  display: flex;
+  flex-direction: row;
+}
+.contact-left{
+  flex-grow: 1;
+}
+.contact-center{
+  flex-grow: 1;
+}
+.contact-right{
+  flex-grow: 1;
+}
+
+/* responsiveness */
+@media screen and (max-width: 600px) {
+  main p {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .performanceSection {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  .performanceButton {
+    margin-left: 0px;
+    margin-right: 0px;
+    display: block;
+  }
+  .container-pics{
+    display: block;
+  }
+  .eboard1{
+    display: block;
+  }
+  .contact-pics{
+    display: block;
+  }
+  .submitbutton{
+    display: block;
+    margin: 0px;
+    width: auto;
+  }
+  nav ul li {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+  }
+  .performanceImage img{
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .largeImage {
+    width: 100%;
+  }
+  .container-pics{
+    display: block;
+  }
+  .eboard1{
+    display: block;
+  }
+  .contact-pics{
+    display: block;
+  }
+  .submitbutton{
+    display: block;
+    margin: 0px;
+    width: auto;
+  }
+}
